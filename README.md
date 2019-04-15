@@ -2,6 +2,7 @@
 This project is for the Neuro Nexus 2019 competition. Projects are invited from neuroscientists, clinicians, and mental health professionals. 120-150 participants, from a multitude of backgrounds, will then come together in teams of 5-7 individuals to work on the projects proposed over a period of 6 weeks. The program will culminate in a 72-hour hackathon weekend where access to prototyping resources are provided, and at Demo Night teams will showcase their projects to the community at large. 
 
 Team Members:
+* Helen Carlson
 * James Peralta
 * Brian Pho
 * Amira Kalifa
