@@ -6,7 +6,6 @@ Team Members:
 * James Peralta
 * Brian Pho
 * Amira Kalifa
-* Steven Dykstra
 * Aaron Leung
 * Andy Wu
 
