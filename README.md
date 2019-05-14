@@ -10,9 +10,10 @@ Team Members:
 * Andy Wu
 
 ## Problem:
-Many neuroimaging techniques (like functional MRI) need to factor out spurious signals coming from tissues in the brain that are of no interest. For example, signals coming from the cerebral spinal fluid (CSF) may include information about pulse/heart rate that we are not really interested in but nonetheless contaminate the signal from the grey matter (that we are interested in). So accurate tissue masks allow us to isolate these spurious signals so we can exclude them from our models. 
+Our team Braining Edge, was tasked with creating a new algorithm to segment the human brain. Previous techniques used a set of probabilities chosen by the algorithm designer to guess which pixel belonged to a certain tissue type. Only problem with this approach is that there are many possible ways a tissue type appears on the MRI. This means means the algorithm designer must account for almost every single combination and as you can probably guess, previous techniques did not work too well.
 
 ## Solution:
+We at Braining Edge have improved on these algorithms by using Deep Learning for this task. Instead of telling the program what each tissue should look like, what if it could learn for itself? Over the past 6-weeks, reading through countless research papers and adding our own flavour to the algorithm we were able to come up with a working software that outperformed all classical methods.
 
 ## How we built it
 
