@@ -13,9 +13,15 @@ Team Members:
 Our team Braining Edge, was tasked with creating a new algorithm to segment the human brain. Previous techniques used a set of probabilities chosen by the algorithm designer to guess which pixel belonged to a certain tissue type. Only problem with this approach is that there are many possible ways a tissue type appears on the MRI. This means means the algorithm designer must account for almost every single combination and as you can probably guess, previous techniques did not work too well.
 
 ## Solution:
-We at Braining Edge have improved on these algorithms by using Deep Learning for this task. Instead of telling the program what each tissue should look like, what if it could learn for itself? Over the past 6-weeks, reading through countless research papers and adding our own flavour to the algorithm we were able to come up with a working software that outperformed all classical methods.
+We at Braining Edge have improved on these algorithms by using Deep Learning for this task. We trained a Convolutional Neural Network that took 23x23 patches surrounding a pixel to classify it as Grey Matter, White Matter, CSF, Dura or Skull. To classify a whole MRI scan it would iterate through every pixel and make a prediction on each pixel.
 
-## How we built it
+The training dataset was a variety of 23x23 patches from the MRIs found in the ATLAS dataset. 
+
+## Technologies used
+* Keras
+* Tensorflow
+* Google Colab
+* Many other Python Libraries
 
 ## Challenges we ran into
 
