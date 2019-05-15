@@ -18,9 +18,11 @@ We at Braining Edge have improved on these algorithms by using Deep Learning for
 The training dataset was a variety of 23x23 patches from the MRIs found in the ATLAS dataset. 
 
 ## Technologies used
-* Keras
-* Tensorflow
-* Google Colab
+* Keras: High level Neural Network API
+* Tensorflow: Backend Neural Network API
+* Google Colab: Used for training the Neural Network
+* Nilabel: Used for working with MRI scans
+* Matplotlib, Skimage, CV2: Manipulating and displaying images
 * Many other Python Libraries
 
 ## Challenges we ran into
