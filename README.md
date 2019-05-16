@@ -26,5 +26,7 @@ The training dataset was a variety of 23x23 patches from the MRIs found in the A
 * Many other Python Libraries
 
 ## Challenges we ran into
-
-## What's next for this project ?
+* Working with MRI files was very interesting. The .nii images had pixel values of 0 to ~1400 which was causing some troubles when converting them to gray-scale. To fix this I just divided each MRI scan by it's max value to get the ranges between 0-1.
+* The labels distribution was also a very big problem. When extracting patches to train the model on, most of the dataset were all black patches. I attempted to train with these black patches still in the dataset but my model was spitting out garbage. As soon as I removed 80% of the black patches my model began working again.
+* It is also very important to always shuffle the training data. This helped increase my accuracy.
+* Found this resource for debugging: https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607
